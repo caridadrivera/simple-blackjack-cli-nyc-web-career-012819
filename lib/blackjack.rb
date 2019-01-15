@@ -58,8 +58,8 @@ def runner
   display_card_total
   prompt_user
   get_user_input
-  end_game
   hit?
+  end_game
   
 end
     
