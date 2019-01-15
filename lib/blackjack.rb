@@ -53,13 +53,12 @@ end
 #####################################################
 
 def runner
-  cardtotal = 0
-until cardtotal > 21
   welcome
- cardtotal = initial_round method
-  hit?
-  display_card_total
-cardtotal += 1
+  cardtotal = initial_round method
+until cardtotal > 21
+cardtotal = hit?
+display_card_total
   end
+end_game
 end
     
