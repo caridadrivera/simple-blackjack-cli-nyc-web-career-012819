@@ -53,6 +53,8 @@ end
 #####################################################
 
 def runner
+  cardtotal = 0
+until cardtotal < 21
   welcome
   deal_card
   display_card_total(number)
@@ -60,6 +62,8 @@ def runner
   get_user_input
   hit?
   end_game
+  cardtotal += 1
   
+  end
 end
     
