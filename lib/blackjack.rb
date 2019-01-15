@@ -34,12 +34,14 @@ def invalid_command
  puts "Please enter a valid command"
 end
 
+
 def hit?(cardtotal)
   prompt_user
   input = get_user_input
   
   if input == !('s') && input == !('h')
     invalid_command
+    prompt_user
   end
 end
 
