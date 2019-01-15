@@ -45,7 +45,7 @@ elsif input == 'h'
 elsif input != 's' && input != 'h'
   invalid_command
   prompt_user
-end
+ end
 end
 
 #####################################################
