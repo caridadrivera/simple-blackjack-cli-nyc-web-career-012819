@@ -32,9 +32,6 @@ def hit?(cardtotal)
   prompt_user
 end
 
-def invalid_command
-  # code invalid_command here
-end
 
 #####################################################
 # get every test to pass before coding runner below #
