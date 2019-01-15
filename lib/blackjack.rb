@@ -23,17 +23,22 @@ def end_game(number)
   #end_game here
 end
 
+
 def initial_round
   cardtotal = deal_card + deal_card
     display_card_total(cardtotal)
     cardtotal
 end
 
+def invalid_command
+  # code invalid_command here
+end
+
 def hit?(cardtotal)
   prompt_user
   input = get_user_input
   
-  while 
+  if input == 's' && input == 'h'
 end
 
 
