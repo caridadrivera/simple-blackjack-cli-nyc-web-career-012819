@@ -61,6 +61,5 @@ until cardtotal > 21
   display_card_total
 cardtotal += 1
   end
-  end_game
 end
     
