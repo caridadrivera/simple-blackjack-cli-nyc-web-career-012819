@@ -24,7 +24,7 @@ def end_game(number)
 end
 
 def initial_round
-  puts "#{deal_card} + #{deal_card}"
+  puts 
 end
 
 def hit?(cardtotal)
