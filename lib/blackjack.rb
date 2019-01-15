@@ -31,14 +31,16 @@ def initial_round
 end
 
 def invalid_command
-  # code invalid_command here
+ puts "Please enter a valid command"
 end
 
 def hit?(cardtotal)
   prompt_user
   input = get_user_input
   
-  if input == 's' && input == 'h'
+  if input == !('s') && input == !('h')
+    invalid_command
+  end
 end
 
 
