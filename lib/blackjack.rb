@@ -56,9 +56,9 @@ def runner
   welcome
   cardtotal = initial_round method
 until cardtotal > 21
-cardtotal = hit?
-display_card_total
+cardtotal = hit?(cardtotal)
+display_card_total(cardtotal)
   end
-end_game
+end_game(cardtotal)
 end
     
